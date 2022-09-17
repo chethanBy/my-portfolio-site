@@ -17,26 +17,20 @@ const Project = () => {
             Projects
           </p>
           <p className="pt-3">
-            // Check out some of my recent work. Live Demo avilable below
+            // Check out some of my recent work. Live Demo available below
           </p>
         </div>
         {/* container */}
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5 ">
           {/* grid item */}
           <div className="sm:col-span-2 ">
-            <p className="text-base py-1 sm:pb-4 md:pb-6 pl-1 text-[#8892b0] font-semibold leading-5">
-              A Full Stack Web App built on
-              <span className="text-pink-600"> MERN</span> Stack for Real-time
-              messaging and Streaming of Video and Audio.Video Chat with upto 4
-              people at once.
-            </p>
-            <div className=" text-xs  pb-1 pl-1 text-left border-t-2 border-pink-400  font-bold sm:mb-4 pt-2">
-              React-Express-MongoDB-SocketIO-JWT-StyledComponents-webRTC and
-              more
+            <div className=" text-xs   pl-1 text-left border-t-2 border-pink-400  font-bold sm:mb-4 py-4 max-h-[40px] h-full">
+              React| ExpressJS| MongoDB| SocketIO| JWT| StyledComponents|
+              WebRTC| MaterialUI| webRTC| NodeJS
             </div>
             <div
               style={{ backgroundImage: `url(${discord})` }}
-              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
+              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div mt-6"
             >
               {/* hover effects */}
 
@@ -67,23 +61,19 @@ const Project = () => {
           </div>
 
           <div>
-            <p className="text-base  pl-1 text-[#8892b0] font-semibold leading-5">
-              A Full Stack Web App built on
-              <span className="text-pink-600"> MERN</span> Stack Using
-              redux-toolkit for global state management.
-            </p>
-            <div className=" text-xs  pb-4 pl-1 text-left border-t-2 border-pink-400 pt-1 font-bold ">
-              React-TailwindCSS-Chartjs-Redux_Toolkit-Redux_RTK_query-lodash-MongoDB-Express
+            <div className=" text-xs pl-1 text-left border-t-2 border-pink-400  font-bold sm:mb-4 pt-5 max-h-[40px] h-full flex items-center">
+              React| TailwindCSS| Chartjs| Redux_Toolkit| Redux_RTK_query|
+              lodash| MongoDB| Express
             </div>
             <div
               style={{ backgroundImage: `url(${expense})` }}
-              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div "
+              className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div mt-6"
             >
               {/* hover effects */}
 
               <div className="opacity-0 group-hover:opacity-100">
                 <span className="text-2xl font-bold text-white tracking-wider text-center ">
-                  Full Stack Application
+                  MERN Stack Application
                 </span>
                 <div className="pt-8 text-center">
                   <a
@@ -107,11 +97,7 @@ const Project = () => {
             </div>
           </div>
           <div>
-            <p className="text-base pb-2 sm:pb-7 pl-1 text-[#8892b0] font-semibold leading-5">
-              A Web Application Inspired by discord. <br />
-              Dark mode Switch and Cool Animations.
-            </p>
-            <div className=" text-xs  pb-2 pl-1 text-left border-t-2 border-pink-400 pt-1 font-bold sm:mb-4">
+            <div className=" text-xs  pb-1 pl-1 text-left border-t-2 border-pink-400  font-bold sm:mb-4 pt-2 max-h-[40px] h-full flex items-center">
               React-TailwindCSS-Git
             </div>
 
@@ -147,11 +133,7 @@ const Project = () => {
             </div>
           </div>
           <div>
-            <p className="text-base pb-2 pl-1 text-[#8892b0] font-semibold leading-5 sm:pb-7">
-              Mini-project Inspired by css-tricks.com made with vanilla CSS and
-              Javascript
-            </p>
-            <div className=" text-xs  pb-4 pl-1 text-left border-t-2 border-pink-400 pt-1 font-bold sm:pb-7">
+            <div className=" text-xs  pb-1 pl-1 text-left border-t-2 border-pink-400  font-bold sm:mb-4 pt-2 max-h-[40px] h-full flex items-center">
               HTML-CSS3-Animations
             </div>
             <div
@@ -187,11 +169,7 @@ const Project = () => {
           </div>
 
           <div>
-            <p className="text-base pb-2 pl-1 text-[#8892b0] font-semibold leading-5">
-              This is a Multi-level Dropdown menu Built using ReactJS and CSS3
-              inspired by facebook dropdown menu.
-            </p>
-            <div className=" text-xs  pb-4 pl-1 text-left border-t-2 border-pink-400 pt-1 font-bold sm:mb-3">
+            <div className=" text-xs  pb-1 pl-1 text-left border-t-2 border-pink-400  font-bold sm:mb-4 pt-2 max-h-[40px] h-full flex items-center">
               React-CSS3-react_icons
             </div>
             <div
